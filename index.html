@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AMUM — Affiliate Marketing Ultimate Mastery | Learn Affiliate Marketing</title>
-<meta name="description" content="Learn the fundamentals of affiliate marketing with AMUM (Affiliate Marketing Ultimate Mastery) and discover how to use your smartphone as a tool for learning and applying digital marketing skills.">
+<title>AMUM — Affiliate Marketing Ultimate Mastery | Coach Kelechi</title>
+<meta name="description" content="Learn affiliate marketing with AMUM. A guided, beginner-friendly training that shows you how to use your smartphone to promote digital products.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,134 +31,94 @@ src="https://www.facebook.com/tr?id=1646118950201578&ev=PageView&noscript=1"
   --bg:#14110D; --bg-alt:#1B170F; --panel:#1F1A12;
   --cream:#F3EEE3; --cream-dim:#C9C2AF;
   --gold:#B8935A; --gold-soft:#8C6D3E;
-  --forest:#22352A; --forest-text:#9FC2A8;
   --line:rgba(243,238,227,0.12);
   --radius:14px;
-  font-family:'Inter',system-ui,-apple-system,sans-serif;
-  box-sizing:border-box;
-  padding-top:env(safe-area-inset-top,0px);
-  padding-bottom:env(safe-area-inset-bottom,0px);
 }
-*{box-sizing:inherit;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
-body{background:var(--bg);color:var(--cream);line-height:1.55;overflow-x:hidden;background:radial-gradient(ellipse at top,rgba(184,147,90,0.08),transparent 60%),var(--bg)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:radial-gradient(ellipse at top,rgba(184,147,90,0.08),transparent 60%),var(--bg);color:var(--cream);line-height:1.55;overflow-x:hidden}
 img{max-width:100%;display:block}
 h1,h2,h3{font-family:'Fraunces',serif;font-weight:500;line-height:1.12;letter-spacing:-0.01em}
 a{color:inherit;text-decoration:none}
-.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
-section{padding:88px 0}
-.hairline{width:56px;height:2px;background:var(--gold);margin-bottom:22px}
-.eyebrow{font-size:.8rem;color:var(--gold);font-weight:600}
-.badge-paid{display:inline-block;font-size:.76rem;font-weight:600;letter-spacing:.02em;color:var(--forest-text);background:rgba(159,194,168,0.1);border:1px solid rgba(159,194,168,0.35);padding:6px 14px;border-radius:999px;margin:14px 0 18px}
-p.lead{color:var(--cream-dim);font-size:1.08rem;max-width:60ch}
-.btn{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#1a1508;font-weight:600;padding:15px 26px;border-radius:9px;font-size:.98rem;border:none;cursor:pointer;transition:transform .15s ease,background .15s ease}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+section{padding:76px 0}
+.eyebrow{font-size:.78rem;color:var(--gold);font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px}
+.lead{color:var(--cream-dim);font-size:1.06rem;max-width:58ch}
+h2{font-size:clamp(1.7rem,3.4vw,2.3rem);margin-bottom:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--gold);color:#1a1508;font-weight:600;padding:15px 26px;border-radius:9px;font-size:.98rem;border:none;cursor:pointer;transition:transform .15s ease,background .15s ease}
 .btn:hover{background:#c9a06a;transform:translateY(-1px)}
-.btn-outline{background:transparent;color:var(--cream);border:1.5px solid var(--line);padding:13.5px 24px}
-.btn-outline:hover{border-color:var(--gold);background:transparent;color:var(--cream)}
 
 /* NAV */
-nav{position:sticky;top:0;top:env(safe-area-inset-top,0px);z-index:50;backdrop-filter:blur(10px);background:rgba(20,17,13,0.85);border-bottom:1px solid var(--line)}
-.nav-inner{max-width:1120px;margin:0 auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
-.logo{font-family:'Fraunces',serif;font-size:1.4rem;font-weight:600;letter-spacing:.02em}
-.nav-cta{font-size:.88rem;padding:11px 18px}
+nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);background:rgba(20,17,13,0.85);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:1040px;margin:0 auto;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:'Fraunces',serif;font-size:1.35rem;font-weight:600;letter-spacing:.03em}
+.nav-cta{font-size:.86rem;padding:10px 18px}
 
 /* HERO */
-.hero{padding:64px 0 72px}
-.hero-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(2.2rem,4.6vw,3.4rem);margin-bottom:20px}
-.hero p.lead{margin-bottom:30px}
-.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
-.hero-note{font-size:.82rem;color:var(--cream-dim)}
-.img-ph{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--cream-dim);font-size:.85rem;text-align:center;min-height:280px}
-.img-ph img{width:100%;height:100%;object-fit:cover}
-.hero .img-ph{aspect-ratio:4/5;min-height:0}
+.hero{padding:56px 0 64px}
+.hero-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.3rem);margin-bottom:18px}
+.hero .lead{margin-bottom:28px}
+.hero-note{font-size:.82rem;color:var(--cream-dim);margin-top:14px}
+.hero-img{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);background:var(--panel);aspect-ratio:4/5}
+.hero-img img{width:100%;height:100%;object-fit:cover}
 
-/* PROBLEM */
-.problem{background:var(--bg-alt);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.problem .wrap{max-width:760px;text-align:left}
-.problem h2{font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:18px}
-.problem .stack{margin:22px 0;color:var(--cream-dim);font-size:1.05rem}
-.problem .stack div{padding:6px 0;border-bottom:1px solid var(--line)}
-
-/* WHAT IS */
-.whatis-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-.whatis h2{font-size:clamp(1.8rem,3.4vw,2.4rem);margin-bottom:18px}
-.check-list{margin-top:8px;color:var(--cream-dim)}
-.check-list li{list-style:none;padding:8px 0 8px 26px;position:relative;border-bottom:1px solid var(--line)}
-.check-list li:before{content:"✓";position:absolute;left:0;color:var(--gold)}
-
-/* CARD GRID */
-.section-head{max-width:640px;margin-bottom:42px}
-.section-head h2{font-size:clamp(1.8rem,3.4vw,2.4rem)}
-.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
-.card h3{font-size:1.05rem;font-weight:600;font-family:'Inter';margin-bottom:8px}
+/* CARDS */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:34px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.card .num{font-family:'Fraunces',serif;color:var(--gold);font-size:1.1rem;margin-bottom:10px}
+.card h3{font-family:'Inter',sans-serif;font-size:1.02rem;font-weight:600;margin-bottom:6px}
 .card p{color:var(--cream-dim);font-size:.92rem}
+.alt{background:var(--bg-alt);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 
 /* COACH */
-.coach{background:var(--bg-alt);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.coach-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
-.coach h2{font-size:clamp(1.8rem,3.4vw,2.4rem);margin-bottom:8px}
-.coach .role{color:var(--gold);font-size:.9rem;margin-bottom:18px}
-.ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.ba-grid .img-ph{aspect-ratio:3/4;min-height:0}
-.ba-label{font-size:.78rem;color:var(--cream-dim);margin-top:8px;text-align:center}
-
-/* COMMUNITY (single column — no image) */
-.community-grid{max-width:640px}
-.community h2{font-size:clamp(1.8rem,3.4vw,2.4rem);margin-bottom:16px}
+.coach-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ba-grid .ph{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);aspect-ratio:3/4;background:var(--panel)}
+.ba-grid img{width:100%;height:100%;object-fit:cover}
+.ba-label{font-size:.76rem;color:var(--cream-dim);margin-top:8px;text-align:center;letter-spacing:.06em}
+.quote{margin-top:18px;padding-left:16px;border-left:2px solid var(--gold);color:var(--cream);font-family:'Fraunces',serif;font-size:1.1rem}
 
 /* TESTIMONIALS */
-.t-scroll{display:flex;gap:16px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
-.t-card{flex:0 0 280px;scroll-snap-align:start;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
-.t-photo{width:100%;aspect-ratio:4/5;background:var(--forest);display:block}
-.t-photo img{width:100%;height:100%;object-fit:cover;display:block}
-@media(min-width:900px){.t-scroll{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible}}
+.t-scroll{display:flex;gap:14px;overflow-x:auto;padding-bottom:8px;margin-top:30px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.t-card{flex:0 0 240px;scroll-snap-align:start;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.t-card img{width:100%;aspect-ratio:4/5;object-fit:cover}
 
-/* WHY */
-.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.why-item{padding:14px 0 14px 26px;position:relative;border-bottom:1px solid var(--line);color:var(--cream-dim)}
-.why-item:before{content:"✓";position:absolute;left:0;color:var(--gold)}
-
-/* FOR YOU */
-.notfor{margin-top:32px;padding:20px 24px;border-left:2px solid var(--gold);background:var(--panel);border-radius:0 var(--radius) var(--radius) 0;color:var(--cream-dim);font-size:.95rem}
-
-/* HOW IT WORKS */
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;counter-reset:step}
-.step{position:relative;padding-top:36px}
-.step:before{counter-increment:step;content:counter(step);font-family:'Fraunces',serif;font-size:1.4rem;color:var(--gold);border:1px solid var(--gold-soft);border-radius:50%;width:42px;height:42px;display:flex;align-items:center;justify-content:center;position:absolute;top:0;left:0}
-.step h3{font-size:1rem;font-weight:600;font-family:'Inter';margin:6px 0 6px 54px}
-.step p{color:var(--cream-dim);font-size:.9rem;margin-left:54px}
+/* STEPS */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;margin-top:34px}
+.step{display:flex;gap:16px;align-items:flex-start}
+.step .n{flex:0 0 42px;height:42px;border:1px solid var(--gold-soft);color:var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-size:1.2rem}
+.step h3{font-family:'Inter',sans-serif;font-size:1rem;font-weight:600;margin-bottom:4px}
+.step p{color:var(--cream-dim);font-size:.9rem}
 
 /* FAQ */
 .faq-item{border-bottom:1px solid var(--line)}
-.faq-q{width:100%;text-align:left;background:none;border:none;color:var(--cream);font-size:1rem;font-weight:500;padding:20px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-family:'Inter'}
+.faq-q{width:100%;text-align:left;background:none;border:none;color:var(--cream);font-size:1rem;font-weight:500;padding:20px 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;font-family:'Inter',sans-serif}
 .faq-q:after{content:"+";font-size:1.4rem;color:var(--gold);transition:transform .2s}
 .faq-item.open .faq-q:after{transform:rotate(45deg)}
 .faq-a{max-height:0;overflow:hidden;transition:max-height .25s ease}
-.faq-a p{color:var(--cream-dim);font-size:.94rem;padding-bottom:18px;max-width:65ch}
+.faq-a p{color:var(--cream-dim);font-size:.94rem;padding-bottom:18px;max-width:62ch}
 
-/* FINAL CTA */
-.final{background:linear-gradient(180deg,var(--bg-alt),var(--bg));border-top:1px solid var(--line);text-align:left}
+/* FINAL */
+.final{text-align:left;background:linear-gradient(180deg,var(--bg-alt),var(--bg));border-top:1px solid var(--line)}
 .final .wrap{max-width:640px}
-.final h2{font-size:clamp(2rem,4vw,2.8rem);margin-bottom:14px}
-.final p.lead{margin-bottom:30px}
+.final h2{font-size:clamp(2rem,4vw,2.7rem)}
+.final .lead{margin-bottom:28px}
+
+footer{padding:30px 24px;text-align:center;color:var(--cream-dim);font-size:.8rem;border-top:1px solid var(--line)}
 
 /* STICKY MOBILE CTA */
 .sticky-cta{display:none}
 @media(max-width:760px){
   .sticky-cta{display:block;position:fixed;bottom:0;left:0;right:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:rgba(20,17,13,0.95);backdrop-filter:blur(8px);border-top:1px solid var(--line);z-index:60}
-  .sticky-cta .btn{width:100%;justify-content:center}
+  .sticky-cta .btn{width:100%}
   body{padding-bottom:76px}
 }
-
-footer{padding:36px 0;text-align:center;color:var(--cream-dim);font-size:.82rem;border-top:1px solid var(--line)}
-
-@media(max-width:900px){
-  .hero-grid,.whatis-grid,.coach-grid,.why-grid{grid-template-columns:1fr}
-  .hero{padding-top:40px}
-  section{padding:64px 0}
-  .hero-actions .btn{width:100%;justify-content:center}
+@media(max-width:860px){
+  .hero-grid,.coach-grid{grid-template-columns:1fr}
+  section{padding:56px 0}
+  .hero{padding-top:36px}
+  .hero .btn{width:100%}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -168,7 +128,7 @@ footer{padding:36px 0;text-align:center;color:var(--cream-dim);font-size:.82rem;
 <nav>
   <div class="nav-inner">
     <div class="logo">AMUM</div>
-    <a class="btn nav-cta" id="wa-nav" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi →</a>
+    <a class="btn nav-cta wa" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi</a>
   </div>
 </nav>
 
@@ -176,243 +136,126 @@ footer{padding:36px 0;text-align:center;color:var(--cream-dim);font-size:.82rem;
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow">AFFILIATE MARKETING ULTIMATE MASTERY</div>
-      <div class="badge-paid">Guided Training · Enrollment Required</div>
-      <h1>Your smartphone can be more than just a device.</h1>
-      <p class="lead">Learn how to turn the phone in your hand into a tool for building an affiliate marketing skill — from the fundamentals of promoting digital products to talking with real prospects. AMUM is a structured, paid training that walks enrolled students through the process, step by step.</p>
-      <div class="hero-actions">
-        <a class="btn" id="wa-hero" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi →</a>
-      </div>
-      <div class="hero-note">Chat with Coach Kelechi to get enrollment details and pricing.</div>
+      <div class="eyebrow">Affiliate Marketing Ultimate Mastery</div>
+      <h1>Learn affiliate marketing with just your smartphone.</h1>
+      <p class="lead">AMUM is a guided, beginner-friendly training that shows you how to promote digital products, talk to real prospects, and build a marketable online skill from the phone in your hand.</p>
+      <a class="btn wa" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi →</a>
+      <div class="hero-note">Paid training · Enrollment required. Chat with Coach Kelechi for details and pricing.</div>
     </div>
-    <div class="img-ph"><img src="./amum.jpeg" alt="AMUM"></div>
+    <div class="hero-img"><img src="./amum.jpeg" alt="AMUM — Affiliate Marketing Ultimate Mastery"></div>
   </div>
 </section>
 
-<!-- PROBLEM -->
-<section class="problem">
+<!-- WHAT YOU GET -->
+<section class="alt">
   <div class="wrap">
-    <div class="hairline"></div>
-    <h2>You already have the device.</h2>
-    <p class="lead">You already have internet access. But do you know how to use those tools to build a marketable online skill?</p>
-    <div class="stack">
-      <div>Most days, that phone is used for social media.</div>
-      <div>For entertainment.</div>
-      <div>For chatting and watching videos.</div>
-    </div>
-    <p class="lead">AMUM introduces another possibility — learning how to use that same smartphone for affiliate marketing.</p>
-    <div style="margin-top:26px"><a class="btn" id="wa-problem" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi →</a></div>
-  </div>
-</section>
-
-<!-- WHAT IS AMUM -->
-<section class="whatis">
-  <div class="wrap whatis-grid">
-    <div>
-      <div class="hairline"></div>
-      <h2>What Is AMUM?</h2>
-      <p class="lead">AMUM stands for Affiliate Marketing Ultimate Mastery — a training built to help beginners understand affiliate marketing from the fundamentals, and learn the practical process behind promoting digital products online.</p>
-      <p class="lead" style="margin-top:16px">In simple terms: affiliate marketing is a model where you promote a product or service created by another business, and earn a commission when your referral leads to a sale.</p>
-    </div>
-    <ul class="check-list">
-      <li>How affiliate marketing works</li>
-      <li>How to choose products</li>
-      <li>How to identify potential customers</li>
-      <li>How to promote products</li>
-      <li>How to communicate with prospects</li>
-      <li>How to handle common objections</li>
-      <li>How to approach selling ethically</li>
-      <li>How to use a smartphone as a business tool</li>
-    </ul>
-  </div>
-</section>
-
-<!-- WHAT YOU'LL LEARN -->
-<section>
-  <div class="wrap">
-    <div class="section-head">
-      <div class="hairline"></div>
-      <h2>Inside AMUM, You'll Learn</h2>
-    </div>
+    <div class="eyebrow">What AMUM is about</div>
+    <h2>Affiliate marketing made simple.</h2>
+    <p class="lead">You promote a product made by another business, and earn a commission when your referral leads to a sale. AMUM teaches you how to do it from the ground up.</p>
     <div class="card-grid">
-      <div class="card"><h3>Affiliate Marketing Fundamentals</h3><p>Understand the business model and how the affiliate system works.</p></div>
-      <div class="card"><h3>Finding the Right Products</h3><p>Learn how to identify digital products relevant to a target audience.</p></div>
-      <div class="card"><h3>Marketing & Promotion</h3><p>Understand different ways to get your offer in front of potential customers.</p></div>
-      <div class="card"><h3>Finding Potential Customers</h3><p>Practical approaches to identifying and attracting people who may need the product.</p></div>
-      <div class="card"><h3>DM & Customer Communication</h3><p>Communicate naturally with prospects without sounding pushy.</p></div>
-      <div class="card"><h3>Handling Objections</h3><p>Understand common reasons prospects hesitate and how to respond professionally.</p></div>
-      <div class="card"><h3>Closing & Follow-Up</h3><p>Guide interested prospects toward informed purchasing decisions.</p></div>
-      <div class="card"><h3>Building Consistency</h3><p>Approach affiliate marketing as a skill that requires learning, testing and consistency.</p></div>
+      <div class="card"><div class="num">01</div><h3>Understand the model</h3><p>Learn how affiliate marketing works and where commissions come from.</p></div>
+      <div class="card"><div class="num">02</div><h3>Build practical skills</h3><p>Find products, find customers, and promote with confidence.</p></div>
+      <div class="card"><div class="num">03</div><h3>Take action</h3><p>Talk to prospects, handle objections, and follow up professionally.</p></div>
     </div>
   </div>
 </section>
 
-<!-- COACH -->
-<section class="coach">
+<!-- WHO IS COACH -->
+<section>
   <div class="wrap coach-grid">
     <div>
-      <div class="hairline"></div>
-      <h2>Who Is Coach Kelechi?</h2>
-      <div class="role">Founder, AMUM</div>
-      <p class="lead">Coach Kelechi is the person behind AMUM. The training is built around helping beginners understand — and practically approach — affiliate marketing, using tools they already have.</p>
+      <div class="eyebrow">Meet your coach</div>
+      <h2>Coach Kelechi</h2>
+      <p class="lead">Founder of AMUM. The training is built to help beginners understand affiliate marketing and approach it practically, using tools they already have. You'll also join a community of 100+ members learning together.</p>
+      <div class="quote">Start with understanding. Build the skill. Then take action.</div>
     </div>
-    <div>
-      <div class="ba-grid">
-        <div>
-          <div class="img-ph"><img src="./before_kelechi.jpeg" alt="Before"></div>
-          <div class="ba-label">BEFORE</div>
-        </div>
-        <div>
-          <div class="img-ph"><img src="./after_kelechi.jpeg" alt="After"></div>
-          <div class="ba-label">AFTER</div>
-        </div>
-      </div>
+    <div class="ba-grid">
+      <div><div class="ph"><img src="./before_kelechi.jpeg" alt="Before"></div><div class="ba-label">BEFORE</div></div>
+      <div><div class="ph"><img src="./after_kelechi.jpeg" alt="After"></div><div class="ba-label">AFTER</div></div>
     </div>
-  </div>
-</section>
-
-<!-- COMMUNITY -->
-<section class="community">
-  <div class="wrap community-grid">
-    <div class="hairline"></div>
-    <h2>You're Not Learning Alone.</h2>
-    <p class="lead">Join a growing community of 100+ members learning and exploring affiliate marketing together.</p>
-    <div style="margin-top:24px"><a class="btn" id="wa-community" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi →</a></div>
   </div>
 </section>
 
 <!-- TESTIMONIALS -->
-<section>
+<section class="alt">
   <div class="wrap">
-    <div class="section-head">
-      <div class="hairline"></div>
-      <h2>What Students & Community Members Are Saying</h2>
-    </div>
+    <div class="eyebrow">Community</div>
+    <h2>What members are saying.</h2>
     <div class="t-scroll" id="testimonials"></div>
   </div>
 </section>
 
-<!-- WHY -->
-<section class="problem">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="hairline"></div>
-      <h2>Why Learn Affiliate Marketing With AMUM?</h2>
-    </div>
-    <div class="why-grid">
-      <div class="why-item">Beginner-friendly learning approach</div>
-      <div class="why-item">Practical understanding instead of only theory</div>
-      <div class="why-item">Learn using tools you already have, including your smartphone</div>
-      <div class="why-item">Understand marketing and customer communication</div>
-      <div class="why-item">Learn how to promote digital products</div>
-      <div class="why-item">Access to a community of other learners</div>
-      <div class="why-item">Guidance from Coach Kelechi</div>
-      <div class="why-item">Learn a skill that can be developed over time</div>
-    </div>
-  </div>
-</section>
-
-<!-- FOR YOU -->
+<!-- STEPS -->
 <section>
   <div class="wrap">
-    <div class="section-head">
-      <div class="hairline"></div>
-      <h2>Is AMUM For You?</h2>
-    </div>
-    <div class="card-grid">
-      <div class="card"><p>Beginners who are completely new to affiliate marketing</p></div>
-      <div class="card"><p>Students looking to learn an online business skill</p></div>
-      <div class="card"><p>People interested in digital marketing</p></div>
-      <div class="card"><p>People who want to understand how digital products are marketed</p></div>
-      <div class="card"><p>People who want to use their smartphone more productively</p></div>
-      <div class="card"><p>People who've tried making money online but still don't understand the fundamentals</p></div>
-    </div>
-    <div class="notfor">AMUM may not be for you if you're looking for instant or guaranteed income without learning, practicing and putting in consistent effort.</div>
-  </div>
-</section>
-
-<!-- HOW IT WORKS -->
-<section class="coach">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="hairline"></div>
-      <h2>How It Works</h2>
-    </div>
+    <div class="eyebrow">Getting started</div>
+    <h2>Three simple steps.</h2>
     <div class="steps">
-      <div class="step"><h3>Chat With Coach Kelechi</h3><p>Click the WhatsApp button and send your message.</p></div>
-      <div class="step"><h3>Get the Details</h3><p>Learn more about AMUM, the training process and how to get started.</p></div>
-      <div class="step"><h3>Join the Training</h3><p>Complete registration and enroll in AMUM.</p></div>
-      <div class="step"><h3>Learn & Apply</h3><p>Go through the training, practice, and begin applying the concepts.</p></div>
+      <div class="step"><div class="n">1</div><div><h3>Chat with Coach Kelechi</h3><p>Tap the button and send your message on WhatsApp.</p></div></div>
+      <div class="step"><div class="n">2</div><div><h3>Get the details</h3><p>Receive the enrollment details, pricing and next steps.</p></div></div>
+      <div class="step"><div class="n">3</div><div><h3>Join &amp; start learning</h3><p>Enroll, go through the training, and start applying it.</p></div></div>
     </div>
   </div>
 </section>
 
 <!-- FAQ -->
-<section>
-  <div class="wrap" style="max-width:760px">
-    <div class="section-head"><div class="hairline"></div><h2>Frequently Asked Questions</h2></div>
-    <div id="faq"></div>
+<section class="alt">
+  <div class="wrap" style="max-width:740px">
+    <div class="eyebrow">FAQ</div>
+    <h2>Questions people ask.</h2>
+    <div id="faq" style="margin-top:20px"></div>
   </div>
 </section>
 
 <!-- FINAL CTA -->
 <section class="final">
   <div class="wrap">
-    <h2>Your smartphone is already in your hands.</h2>
-    <p class="lead">The next step is learning how to use it more intentionally. Ready to learn affiliate marketing?</p>
-    <a class="btn" id="wa-final" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi on WhatsApp →</a>
+    <h2>Ready to learn affiliate marketing?</h2>
+    <p class="lead">Your smartphone is already in your hands. Chat with Coach Kelechi to get started.</p>
+    <a class="btn wa" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi on WhatsApp →</a>
   </div>
 </section>
 
-<footer>AMUM — Affiliate Marketing Ultimate Mastery. Results depend on effort, consistency and individual circumstances.</footer>
+<footer>© 2026 AMUM — Affiliate Marketing Ultimate Mastery. Results depend on effort, consistency and individual circumstances.</footer>
 
-<div class="sticky-cta">
-  <a class="btn" id="wa-sticky" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi →</a>
-</div>
+<div class="sticky-cta"><a class="btn wa" href="#" target="_blank" rel="noopener">Chat With Coach Kelechi →</a></div>
 
 <script>
 const WA_NUM = "2349135233674";
 const WA_MSG = "Hello Coach Kelechi, I'm interested in learning more about AMUM (Affiliate Marketing Ultimate Mastery). Please, how can I get started?";
 const WA_LINK = "https://wa.me/" + WA_NUM + "?text=" + encodeURIComponent(WA_MSG);
-["wa-nav","wa-hero","wa-problem","wa-community","wa-final","wa-sticky"].forEach(id=>{
-  const el = document.getElementById(id);
-  if(el) el.href = WA_LINK;
+document.querySelectorAll(".wa").forEach(el => {
+  el.href = WA_LINK;
+  el.addEventListener("click", () => { if (window.fbq) fbq('track', 'Contact'); });
 });
 
-// Testimonials — using your 9 supplied images (testimonial1.jpeg ... testimonial9.jpeg)
-const testimonials = Array.from({length:9}, (_,i)=>({ n: i+1 }));
-document.getElementById("testimonials").innerHTML = testimonials.map(t => `
-  <div class="t-card">
-    <div class="t-photo"><img src="./testimonial${t.n}.jpeg" alt="Testimonial ${t.n}"></div>
-  </div>
+document.getElementById("testimonials").innerHTML = Array.from({length:9}, (_,i) => `
+  <div class="t-card"><img src="./testimonial${i+1}.jpeg" alt="Testimonial ${i+1}" loading="lazy"></div>
 `).join("");
 
-// FAQ
 const faqs = [
-  ["What is AMUM?", "AMUM (Affiliate Marketing Ultimate Mastery) is a training designed to help beginners understand affiliate marketing from the fundamentals and learn the practical process of promoting digital products online."],
-  ["Is AMUM suitable for beginners?", "Yes. AMUM is built for people who are completely new to affiliate marketing and want to learn from the ground up."],
-  ["Do I need a laptop to learn affiliate marketing?", "No. AMUM is designed around using a smartphone as your primary tool."],
-  ["Can I learn using my smartphone?", "Yes — learning how to use your smartphone effectively is a core part of AMUM."],
-  ["What exactly will I learn?", "You'll learn the fundamentals of affiliate marketing, how to find products and customers, how to communicate with prospects, and how to build consistency."],
-  ["How do I join the training?", "AMUM is a paid, guided training that requires registration. Chat with Coach Kelechi on WhatsApp using the button on this page to get the enrollment details, pricing and next steps."],
-  ["Is AMUM free?", "No. AMUM is a paid training with registration required. Reach out to Coach Kelechi on WhatsApp for current pricing and enrollment details."],
-  ["Is affiliate marketing guaranteed income?", "No. Affiliate marketing is a skill-based business model, and results can vary depending on factors such as the products promoted, marketing approach, audience, consistency and other circumstances."]
+  ["Is AMUM for beginners?", "Yes. It's built for people who are completely new to affiliate marketing."],
+  ["Do I need a laptop?", "No. AMUM is designed around using your smartphone as your main tool."],
+  ["What will I learn?", "How affiliate marketing works, how to find products and customers, how to communicate with prospects, and how to stay consistent."],
+  ["Is AMUM free?", "No. It's a paid, guided training with registration required. Chat with Coach Kelechi on WhatsApp for current pricing and enrollment details."],
+  ["Is income guaranteed?", "No. Affiliate marketing is a skill-based business, and results depend on your effort, consistency, audience and circumstances."]
 ];
-document.getElementById("faq").innerHTML = faqs.map((f,i)=>`
+document.getElementById("faq").innerHTML = faqs.map(f => `
   <div class="faq-item">
     <button class="faq-q" aria-expanded="false">${f[0]}</button>
     <div class="faq-a"><p>${f[1]}</p></div>
   </div>
 `).join("");
-document.querySelectorAll(".faq-item").forEach(item=>{
-  const btn = item.querySelector(".faq-q");
-  const ans = item.querySelector(".faq-a");
-  btn.addEventListener("click", ()=>{
-    const isOpen = item.classList.contains("open");
-    document.querySelectorAll(".faq-item.open").forEach(o=>{
-      o.classList.remove("open"); o.querySelector(".faq-a").style.maxHeight = null; o.querySelector(".faq-q").setAttribute("aria-expanded","false");
+document.querySelectorAll(".faq-item").forEach(item => {
+  const btn = item.querySelector(".faq-q"), ans = item.querySelector(".faq-a");
+  btn.addEventListener("click", () => {
+    const open = item.classList.contains("open");
+    document.querySelectorAll(".faq-item.open").forEach(o => {
+      o.classList.remove("open");
+      o.querySelector(".faq-a").style.maxHeight = null;
+      o.querySelector(".faq-q").setAttribute("aria-expanded","false");
     });
-    if(!isOpen){
+    if (!open) {
       item.classList.add("open");
       ans.style.maxHeight = ans.scrollHeight + "px";
       btn.setAttribute("aria-expanded","true");
